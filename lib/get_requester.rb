@@ -12,7 +12,7 @@ class GetRequester
   
   def get_response_body
     uri = URI.parse(url)
-    response = NET::Response
+    response = NET::HTTP.get_re
   end
   
 end
