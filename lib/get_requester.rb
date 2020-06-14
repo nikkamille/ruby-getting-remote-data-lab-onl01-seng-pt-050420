@@ -1,3 +1,6 @@
+require 'open-uri'
+require ''
+
 class GetRequester
   
   attr_accessor :url 
