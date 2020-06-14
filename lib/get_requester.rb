@@ -11,7 +11,7 @@ class GetRequester
   end
   
   def get_response_body
-    uri = uri.parse
+    uri = URI.parse(url)
   end
   
 end
